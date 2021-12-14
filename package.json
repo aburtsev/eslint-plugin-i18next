@@ -21,7 +21,8 @@
     "preversion": "npm run test",
     "postpublish": "git push --follow-tags",
     "test:watch": "npm t -- --watch",
-    "test": "mocha tests --recursive"
+    "test": "mocha tests --recursive",
+    "test-fix": "mocha tests/lib/rules/fix-no-literal-string.js"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
